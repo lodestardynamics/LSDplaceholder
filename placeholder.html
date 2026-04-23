@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lodestar Dynamics</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            font-family: monospace;
+            color: #00ff00;
+        }
+
+        img {
+            max-width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .cursor::after {
+            content: "_";
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Replace with your logo file -->
+    <img src="logo.png" alt="Lodestar Dynamics Logo">
+
+    <div class="cursor">PLEASE WAIT</div>
+
+</body>
+</html>
